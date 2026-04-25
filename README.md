@@ -3,10 +3,6 @@
 This project is a step-by-step low-level web server built with Python sockets.
 Each folder (`Stage 1` to `Stage final`) adds one feature, starting from raw TCP and ending with a minimal e-commerce flow (products, cart, checkout, and UI).
 
-## Repository
-
-- GitHub: [poorvithdevang861/websystem](https://github.com/poorvithdevang861/websystem.git)
-
 ## Prerequisites
 
 - Python 3.8+ (recommended: Python 3.10 or newer)
