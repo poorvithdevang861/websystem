@@ -1,0 +1,25 @@
+run 1st terminal
+python3 server.py 
+
+for get request commands below;
+run 2nd terminal
+curl http://localhost:8080/ (Home)
+
+curl http://localhost:8080/products (Products)
+
+error Handling
+curl http://localhost:8080/xyz (shows error 404)
+
+
+curl "http://localhost:8080/products?id=1" (to view 1st product)
+curl http://localhost:8080/products?id=1 (if above one doesnt run)
+
+
+
+for post request commands below;
+curl -X POST "http://localhost:8080/add-to-cart" -d "id=1" (add item)
+
+view cart 
+curl http://localhost:8080/cart
+
+Stage 10
